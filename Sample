@@ -1,0 +1,15 @@
+# Sample Python Program
+# File Name: sample.py
+
+def greet(name):
+    print(f"Hello, {name}! Welcome to GitHub.")
+
+def add(a, b):
+    return a + b
+
+# Main program
+if __name__ == "__main__":
+    greet("Harshit")
+    
+    result = add(5, 3)
+    print("Sum is:", result)
